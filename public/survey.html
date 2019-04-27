@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>FriendFinder</title>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+		<link rel="stylesheet" style type="text/css" href="css/main.css">
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/css/bootstrap-select.min.css">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/bootstrap-select.min.js"></script>
+
+</head>
+
+<body class="survey">
+
+  <div class="container">
+
+    <!-- list and display survey questions -->
+    <h2>Survey Questions</h2>
+    <hr>
+
+    <h3><strong>About You</strong></h3>
+    <h4 class="mainInput">Name (Required)<span class="error text-danger"></span></h4>
+    <input type="text" id="name" class="form-control" required>
+
+    <h4 class="mainInput">Link to Photo Image (Required)<span class="error text-danger"></span></h4>
+    <input type="text" name="" id="photo" class="form-control" required>
+
+    <hr>
+
+    <h3><strong>Question 1</strong></h3>
+    <h4>Loki is a bad guy.</h4>
+    <select class="chosen-select" id="q1">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+    <h3><strong>Question 2</strong></h3>
+    <h4>Thor should have chopped off Thanos' head!</h4>
+    <select class="chosen-select" id="q2">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+
+    <h3><strong>Question 3</strong></h3>
+    <h4>Natasha and Bruce Banner should get married.</h4>
+    <select class="chosen-select" id="q3">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+
+    <h3><strong>Question 4</strong></h3>
+    <h4>Iron Man is the best avenger of all time!</h4>
+    <select class="chosen-select" id="q4">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+
+    <h3><strong>Question 5</strong></h3>
+    <h4>Paul Rudd is the perfect actor for Ant Man.</h4>
+    <select class="chosen-select" id="q5">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+
+    <h3><strong>Question 6</strong></h3>
+    <h4>Hulk acted like a big baby in Infinity War.</h4>
+    <select class="chosen-select" id="q6">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+
+    <h3><strong>Question 7</strong></h3>
+    <h4>Hawkeye is a bad MOFO.</h4>
+    <select class="chosen-select" id="q7">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+    <h3><strong>Question 8</strong></h3>
+    <h4>Doctor Strange should not have given Thanos the time stone.</h4>
+    <select class="chosen-select" id="q8">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+    <h3><strong>Question 9</strong></h3>
+    <h4>Black Panther and Wakanda will survive the war.</h4>
+    <select class="chosen-select" id="q9">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+    <h3><strong>Question 10</strong></h3>
+    <h4>It is extremely sad to know that Endgame is the last of the Avengers.</h4>
+    <select class="chosen-select" id="q10">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+    <br>
+    <br>
+
+    <!-- Submit Button -->
+    <button type="submit" class="btn btn-lg btn-block survey surveytext" id="submit"><i class="fa fa-check-circle"></i>Submit</button>
+
+    <hr>
+</div><!-- container end -->
+    <footer class="footer">
+        <div class="container">
+            <p><a href="/api" target="_blank">API Friends List</a> | <a href="https://github.com/vidhi27/friendFinder" target="_blank">GitHub Repo</a></p>
+        </div>
+    </footer>
+<!-- modal for displaying results -->
+<div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content text-center">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Here is your best match:</h4>
+            </div>
+            <div class="modal-body">
+                <img id="modalImage" class="well" src="" alt="" height="300">
+                <h3 id="modalName" class="text-danger"></h3>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        //click handler for submit button
+        $( '#submit' ).on( 'click', function ( event ) {
+            event.preventDefault();
+            let newFriend = {};
+            //flag variable for validation
+            let inputComplete = false;
+            //capturing values from form inputs
+            let name = $( '#name' ).val().trim();
+            let photo = $( '#image' ).val().trim();
+            //triggering warning message if inputs are incomplete
+            if ( name === '' || photo === '') {
+                inputComplete = false;
+                $( '.error' ).empty();
+                $( '.error' ).text( '  You must fill out this field!' )
+            } else {
+                inputComplete = true;
+            }
+            if ( inputComplete ) {
+                //creating object from inputs/questions
+                $( '.error' ).empty();
+                let newFriend = {
+                    name,
+                    photo,
+                    scores:[]
+                }
+                //loop that pushes values of questions into newFriend
+                //object, and clears inputs.  If user chose not to, or 
+                //failed to answer a question, a default neutral value 
+                //is assigned.  This mechanism is used in place of user 
+                //input validation on the questions to allow user to save 
+                // time on questions they are neutral about.
+                for ( let i = 1; i <= 10; i++ ) {
+                    let score = $( '#q'+ i ).val() || "3"
+                    newFriend.scores.push( score );
+                    $( '#q'+ i ).val('').selectpicker('refresh');
+                }
+                //clearing inputs
+                $( '#name' ).val( '' );
+                $( '#image' ).val( '' );
+                //posting new user to the api
+                $.post("/api/friends", newFriend)
+                    .done(function(data) {   
+                    console.log('data:',data)
+                });
+                //getting best match data from backend, and passing the data to the modal
+                $.get("/bestFriend", function (data2) {
+                    $('#myModal').modal('toggle');
+                    $('#modalName').text(data2.friend.name);
+                    $('#modalImage').attr("src", data2.friend.photo);
+                });	
+            }
+        });
+    });
+</script>
+</body>
+</html>

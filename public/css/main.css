@@ -1,0 +1,29 @@
+body.survey {
+    background: url(../images/Avengers.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 30%;
+}
+.jumbotron{
+	background: linear-gradient(to top, red 4%, white 100%);
+}
+
+.survey{
+	background: linear-gradient(to right, blue -7%, white 100%);
+	border-color: blue;
+}
+
+.surveytext{
+	color: white;
+}
+
+#homepage{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	border-bottom-left-radius: 2%;
+	border-bottom-right-radius: 2%;
+}
+
+#surveypage{
+	background: linear-gradient(to top, red 10%, white 110%);
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
