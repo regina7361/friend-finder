@@ -20,4 +20,3 @@ module.exports = function(app){
 	  res.json(friends.array);
 	});
 }
-

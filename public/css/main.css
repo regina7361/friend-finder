@@ -1,16 +1,10 @@
-body.survey {
-    background: url(../images/Avengers.png);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: 30%;
-}
 .jumbotron{
-	background: linear-gradient(to top, red 4%, white 100%);
+	background: linear-gradient(to top, #feada6 4%, #f5efef 100%);
 }
 
 .survey{
-	background: linear-gradient(to right, blue -7%, white 100%);
-	border-color: blue;
+	background: linear-gradient(to right, #13547a -7%, #80d0c7 100%);
+	border-color: #13547a;
 }
 
 .surveytext{
@@ -18,12 +12,13 @@ body.survey {
 }
 
 #homepage{
+	background: linear-gradient(to left, #13547a 50%, #80d0c7 100%);
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	border-bottom-left-radius: 2%;
 	border-bottom-right-radius: 2%;
 }
 
 #surveypage{
-	background: linear-gradient(to top, red 10%, white 110%);
+	background: linear-gradient(to top, #f5efef 10%, #feada6 110%);
 	font-family: Georgia, 'Times New Roman', Times, serif;
 }

@@ -10,13 +10,13 @@ const path = require('path');
 const app = express();
 
 //port selection
-const PORT = process.env.PORT || 8081;
+const PORT = process.env.PORT || 3001;
 
 //initializing body-parser
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-app.use(express.static(path.join(__dirname, 'public')))
+app.use(express.static(path.join(__dirname, './app/public')))
 //importing routes
 htmlRoutes(app, path);
 apiRoutes(app);
